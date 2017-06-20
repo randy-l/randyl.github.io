@@ -1,87 +1,117 @@
-#pageWrapper {
-        font: 16px/1.4 'PT Sans Narrow', sans-serif;
-        width: 1000px;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border: thin;   
+        body, html {
+                    height:  100%;
+                    width: 100%;
+                    margin:  0px auto;
+                    padding: 0px auto;
+                    overflow-x: hidden;
+                    overflow-y: auto; 
+                }
+
+        #pageWrapper {
+                 font: 16px/1.4 'PT Sans Narrow', sans-serif;
+               width:  100%;
+                background-color: white;
+                margin: 0px auto;
+                padding: 0px auto;
+                border: thin;   
+                    }
+
+         #header {
+        height: 75px;
+        width: 100%px;
+        margin: 0px auto;
     }
-	
-	 #header {
-        height: 50px;
-        width: 1000px;
-    }
-	
-	     #companyLogo {
+
+        #menuIcon {
+            color blue;
+            width: 35px;
+            height: 5px;
+            margin: 6px 0;   
+                }
+
+                 #companyLogo {
         position: relative;
         width: 200px;
-		left: 30px;
-		top: -7px;
-	    }	    
+        left: 150px;
+        top: -8px;
+        }
 
-    .bannerTitle { background-color: #377037;
-    				color: white;
-    			position:relative;
-    			text-align: center;
-    			width: 200px;
-    			left: 325px;
-    			top: -65px;
-    }
+        #companySlogan {position: relative;
+                text-align: center;
+                font-size: 22px;
+                width: 300px;
+                right: -950px;
+                top: -68px;
+            }
 
-    .bannerTitle2 { background-color: #377037;
-    				color: white;
-        			position:relative;
-    			text-align: center;
-    			width: 200px;
-    			right: -750px;
-    			top: -110px;
-    		}
+            .contentWrapper { background-color: #471F37;
+                    position: relative;
+                      height: 200px;
+                      width: 100%;
+                      margin: 0px auto;
+                      top: 31px;
+                  }
 
-    #contentWrapper { background-color: #471F37;
-    				  position: relative;
-    				  height: 200px;
-    				  width: 1000px;
-      				  margin-left: auto;
-     				  margin-right: auto;
-     				  top: -103px;
-    }
 
-    #companySlogan {position: relative;
-    			color: white;
-    			font-size: 22px;
-        		width: 300px;
-				right: -400px;
-				top: -245px;
-    }
+            .bannerTitle { background-color: #377037;
+                        color: white;
+                        position:relative;
+                        text-align: center;
+                        width: 750px;
+                        left: 25px;
+                        top: -175px;
+            }
 
-    #renterreasons {background-color: #377037;
-    			color: white;
-    			position: relative;
-    			text-align: center;
-    			width: 100px;
-    			left: 102px;
-    			top: -177px;
-    }
+        .bannerTitle2 { background-color: #377037;
+                            color: white;
+                            position:relative;
+                        text-align: center;
+                        width: 580px;
+                        right: -70px;
+                        top: -190px; 
+                    }
 
-    #driverreasons {background-color: #377037;
-    			color: white;
-    			position: relative;
-    			text-align: center;
-    			width: 100px;
-    			right: -790px;
-    			top: -316px;
-    		}
+        .bannerTitle6 { background-color: #377037;
+                            color: white;
+                            position:relative;
+                        text-align: center;
+                        width: 130px;
+                        right: -1000px;
+                        top: -444px; 
+                    }
 
-    #renterslist {position: relative;
-    			  font-size: 18px;
-    			  top: -150px;
-    			  left: 50px;
+        .bannerTitle3 { background-color: #377037;
+                            color: white;
+                            position:relative;
+                        text-align: center;
+                        width: 240px;
+                        right: -1001px;
+                        top: -260px; 
+                    }
 
-    }
+        .bannerTitle4 { background-color: #377037;
+                        color: white;
+                        position:relative;
+                        text-align: center;
+                        width: 100px;
+                        right: -1001px;
+                        top: -274px; 
+                    }
 
-	#driverslist {position: relative;
-				  font-size: 18px;
-				  top: -280px;
-				  right: -705px;
-	}
+        .bannerTitle5 { background-color: #377037;
+                        color: white;
+                        position:relative;
+                        text-align: center;
+                        width: 120px;
+                        right: -1001px;
+                        top: -288px; 
+                    }
 
+        .bannerTitle7 { background-color: #377037;
+                        color: white;
+                        position:relative;
+                        text-align: center;
+                        width: 200px;
+                        right: -1130px;
+                        top: -323px; 
+                    }
